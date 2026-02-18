@@ -1843,7 +1843,7 @@ wheels = [
 [[package]]
 name = "invenio-app-rdm"
 version = "14.0.0b5.dev3"
-source = { registry = "https://pypi.org/simple" }
+source = { git = "https://github.com/inveniosoftware/invenio-app-rdm.git?branch=master#1e19015ac15dae33c5cb84d0175d63f9ab0cf525" }
 dependencies = [
     { name = "cairosvg" },
     { name = "invenio-access" },
@@ -1882,10 +1882,6 @@ dependencies = [
     { name = "invenio-sitemap" },
     { name = "invenio-theme" },
     { name = "invenio-userprofiles" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/e5/c0/a247b74c113c3275e78f3f175e4924fe5fcb0ffb9e12da6669c5b1ef31ef/invenio_app_rdm-14.0.0b5.dev3.tar.gz", hash = "sha256:12a2c20490d82b0b4d51de0e9b945fe43b8472320dfce54c54f20335de783226", size = 743402, upload-time = "2026-02-17T07:56:04.69Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/dc/6d/9d39ba88185755efd8e1f10fcaba1e711c2a2e04db60ebf17a8e43094039/invenio_app_rdm-14.0.0b5.dev3-py2.py3-none-any.whl", hash = "sha256:880323bc2fc598f0bd332fb2e8e26fcd670f41796f21ddf00cf82ba95e6dc343", size = 1179371, upload-time = "2026-02-17T07:56:02.408Z" },
 ]
 
 [package.optional-dependencies]
@@ -3027,7 +3023,6 @@ dependencies = [
     { name = "apispec-webframeworks" },
     { name = "invenio-app-rdm", extra = ["opensearch2", "s3"] },
     { name = "invenio-cli" },
-    { name = "latest-build" },
     { name = "lxml-html-clean" },
     { name = "python-dotenv" },
     { name = "uwsgi" },
@@ -3055,9 +3050,8 @@ dev = [
 requires-dist = [
     { name = "apispec", extras = ["marshmallow", "yaml"], specifier = ">=6.8.3" },
     { name = "apispec-webframeworks", specifier = ">=1.2.0" },
-    { name = "invenio-app-rdm", extras = ["opensearch2", "s3"], specifier = ">=14.0.0b5.dev0,<14.0.0b99999999.dev0" },
+    { name = "invenio-app-rdm", extras = ["opensearch2", "s3"], git = "https://github.com/inveniosoftware/invenio-app-rdm.git?branch=master" },
     { name = "invenio-cli" },
-    { name = "latest-build", editable = "site" },
     { name = "lxml-html-clean", specifier = ">=0.1.1" },
     { name = "pytest-invenio", marker = "extra == 'tests'", specifier = ">=3.0.0,<4.0.0" },
     { name = "python-dotenv", specifier = ">=0.21.0" },
