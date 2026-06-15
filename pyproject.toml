@@ -22,7 +22,6 @@ dependencies = [
 
 [tool.uv.sources]
 latest_build = { workspace = true }
-invenio-app-rdm = { git = "https://github.com/inveniosoftware/invenio-app-rdm.git", branch = "master" }
 
 [tool.uv.workspace]
 members = [
