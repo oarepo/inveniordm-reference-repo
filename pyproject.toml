@@ -8,7 +8,7 @@ dependencies = [
   # 
   # We keep the dependency >= to always have latest 14
   #
-  "invenio-app-rdm[opensearch2,s3]>=14.0.0b1.dev0",
+  "invenio-app-rdm[opensearch2,s3]>=14.0.0b1.dev0,<15.0.0dev0",
   "python-dotenv>=0.21.0",
   "uwsgi>=2.0",
   "uwsgitop>=0.11",
