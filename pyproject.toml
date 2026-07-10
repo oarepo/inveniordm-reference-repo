@@ -18,7 +18,6 @@ dependencies = [
   "invenio-cli",
   "apispec[marshmallow,yaml]>=6.8.3",
   "apispec-webframeworks>=1.2.0",
-  "citeproc-py-styles==0.1.5",
 ]
 
 [tool.uv.sources]
