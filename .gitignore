@@ -84,3 +84,6 @@ s3-data/
 .ruff_cache/
 # S3
 data/
+
+# never commit the lock file - we want to always upgrade
+uv.lock
