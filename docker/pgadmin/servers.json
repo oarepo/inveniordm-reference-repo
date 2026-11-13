@@ -1,0 +1,13 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "inveniordm-reference-repo-db",
+      "Group": "Servers",
+      "Host": "inveniordm-reference-repo-db-1",
+      "Port": 5432,
+      "MaintenanceDB": "postgres",
+      "Username": "inveniordm-reference-repo",
+      "SSLMode": "prefer"
+    }
+  }
+}
