@@ -17,19 +17,19 @@ site_code = yes
 base_image = debian
 use_reduced_vocabs = yes
 _template = https://github.com/inveniosoftware/cookiecutter-invenio-rdm.git
-_output_dir = /Users/m/temp
+_output_dir = /private/tmp
 _repo_dir = /Users/m/.cookiecutters/cookiecutter-invenio-rdm
-_checkout = master
+_checkout = v14.0
 database = postgresql
 search = opensearch2
 
 [files]
 app_data = {'vocabularies': {'cc_licences.csv': '19a8bfd2488c7adb90d1dbe1c70f57cf2e0a737cb11814cc814f917072843de7', 'languages.yaml': 'd3bdb59940e8e6cd2401785ad55733f5fc6a1fb0bb0a2005a8fe4e5148e5f286', 'names.yaml': '6dc80984186ec960bcf53fbb6c482554d0aaf386d345bf82f504fdbd896e5848', 'subjects_oecd_fos.yaml': 'eef38714c506d956193c3be17e6004049525d252bf22424f4804dfc1ad46db44'}, 'README.md': 'd58978488626bdeddc791a15a39e341a4ed06f202b84d0c0d4aa9ef49481c6d9', 'vocabularies.yaml': '5e5bbc729dd79c43342f9c97ccec9fcde8e73baf3393fd6c1fc5cc1d0cb76327', 'pages': {'.gitkeep': '22818f8c9f68fb11b7ca893ad1c082f844ae9f691f082d2174e32738d9ae6114'}}
-docker = {'nginx': {'test.crt': '00ec8c8d3d2cc26bde7202b2292747e9696fbe7bd2ba12af3149a39a4e483295', 'Dockerfile': '541326766beaba2e8492255c99e11aa76640d71329ceab5bcab1c8d6a979bd5c', 'test.key': 'b67f17c30571fb6fe2cd209cc88173a4493f035ad3c662cb99c38338136110cd', 'nginx.conf': '7ba045f9e5c94cbbe96653c0b2fdc0b58951642d488d5fcae1ace3eeca9253c0', 'conf.d': {'default.conf': '332fe160699c96441f0da07e88553dd9fe9d9a1f389b30cbee0161f55ceca70c'}}, 'pgadmin': {'servers.json': '46141767bc34dcb9ea4e71341481928d510a5811aac9fac275fdffdf2ce0cb1f'}, 'uwsgi': {'uwsgi_rest.ini': '4e5391e997f667cb1fb5c7c38423d784bb982d9bb2979991fe4d49abe4f1448a', 'uwsgi_ui.ini': 'dc4895a5ee08fd96366cde4670a8825af7677da1471e5e52671d2d85fe7c2957'}}
-invenio.cfg = 16465649d4293319905a80e6ae47c910756403a8c0e1bad7495dd85298a66454
-docker-services.yml = d6b3447f0b59202bb3a67c6922ce1389bd2e7c0f17470dfb18f0062dc5854e79
+docker = {'nginx': {'test.crt': '9265f6126bced38922377c6b75239d60a685bddf2b1c1534cb037eff1f469a08', 'Dockerfile': '541326766beaba2e8492255c99e11aa76640d71329ceab5bcab1c8d6a979bd5c', 'test.key': 'f6dc1eec3cbc32ece26b22098d5493a1d55026bd662d68cb81ecf22f6b566c23', 'nginx.conf': '7ba045f9e5c94cbbe96653c0b2fdc0b58951642d488d5fcae1ace3eeca9253c0', 'conf.d': {'default.conf': 'c41b1d32026e2cf6c575698aa2bcd11dc342fa4083dfc95ea441b328282f241b'}}, 'pgadmin': {'servers.json': '46141767bc34dcb9ea4e71341481928d510a5811aac9fac275fdffdf2ce0cb1f'}, 'uwsgi': {'uwsgi_rest.ini': '4e5391e997f667cb1fb5c7c38423d784bb982d9bb2979991fe4d49abe4f1448a', 'uwsgi_ui.ini': 'dc4895a5ee08fd96366cde4670a8825af7677da1471e5e52671d2d85fe7c2957'}}
+invenio.cfg = cfadd3ac230707521431a1e020f80735688c52289b1b6f4d5b35457d449d2acb
+docker-services.yml = f6dc172e9d1ea7a89af193be74a00d407e1429f80128d4d87c873549e4b392bc
 dockerfile = e4209e39de70997c1cf06d5bfadc2330bba596cb9ff850db20f964f6095efcfb
-pyproject.toml = 07e9c35f82be6306d608b3d22ef7347ed85b7fd156ea2a3e62981c31f7adb531
+pyproject.toml = 36962da0d9243c30da0707ebefbee7fdd18c327c44ec400e2f0ab04cad467ecf
 readme.md = 3494c35dadaf623ac1675f02834e8252187fc5f2f57b3fdc4ed703cb1fdc874b
 .dockerignore = 21241bc12cdf4ac5f209d6b191adc8f25eb89af93ce5c4c3f72c86661162d7b5
 .gitignore = af1182c70588e583daeb35809e6cdfe3408425d438c3ceb282b1f4b8360290e2
